@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Analyze infographics",
+    "prompt": "Crop out all the animals, and use them as icons in a matplotlib plot showing the lifespan of those animals. Sort by lifespan.",
+    "image": "https://raw.githubusercontent.com/nannanxia-art/gemini-thinking/refs/heads/main/animals.jpg"
+  },
+  {
+    "title": "Image overlay",
+    "prompt": "Analyze where the mug, glass, and bowl will go? Annotate them on the image with boxes and arrows and save the image.",
+    "image": "https://raw.githubusercontent.com/nannanxia-art/gemini-thinking/refs/heads/main/spatial2_min.jpeg"
+  },
+  {
+    "title": "Zoom and count",
+    "prompt": "How many gears are there? Zoom in to see.",
+    "image": "https://raw.githubusercontent.com/nannanxia-art/gemini-thinking/refs/heads/main/spatial3_orig_min.jpeg"
+  },
+  {
+    "title": "Zoom and inspect",
+    "prompt": "What is the number on the gauge? Zoom in if needed.",
+    "image": "https://raw.githubusercontent.com/nannanxia-art/gemini-thinking/refs/heads/main/gauge.jpeg"
+  },
+  {
+    "title": "Detailed image understanding",
+    "prompt": "what is the number on the ESMT chip? zoom and rotate crop if needed.",
+    "image": "https://raw.githubusercontent.com/nannanxia-art/gemini-thinking/refs/heads/main/chip.jpeg"
+  },
+  {
+    "title": "Sorting",
+    "prompt": "Annotate on the image with arrows of different colors, which object should go into which bin.",
+    "image": "https://raw.githubusercontent.com/nannanxia-art/gemini-thinking/refs/heads/main/trash.jpeg"
+  },
+  {
+    "title": "Plotting",
+    "prompt": "Make a bar chart of per-category performance, normalize prior SOTA as 1.0 for each task, then take average per-category. Plot using matplotlib with nice style.",
+    "image": "https://raw.githubusercontent.com/nannanxia-art/gemini-thinking/refs/heads/main/gemini.jpeg"
+  },
+  {
+    "title": "Counterfactual",
+    "prompt": "how many fingers are there? Annotate on the image to help reasoning.",
+    "image": "https://raw.githubusercontent.com/nannanxia-art/gemini-thinking/refs/heads/main/ai-generated-hand.png"
+  },
+  {
+    "title": "Compare colors",
+    "prompt": "Is A or B darker?",
+    "image": "https://raw.githubusercontent.com/nannanxia-art/gemini-thinking/refs/heads/main/vi.png"
+  },
+  {
+    "title": "Draw bounding box",
+    "prompt": "Find components on it and plot bounding boxes on the image with proper text labels.",
+    "image": "https://raw.githubusercontent.com/nannanxia-art/gemini-thinking/refs/heads/main/chip.png"
+  },
+  {
+    "title": "Counterfactual",
+    "prompt": "Annotate on this image until you identify issues with this image.",
+    "image": "https://raw.githubusercontent.com/nannanxia-art/gemini-thinking/refs/heads/main/ruler.jpg"
+  },
+   {
+    "title": "Point and label",
+    "prompt": "Point to at least 50 items in the image in the format of {\"point\": [y,x], label: \"\"} and label them in the image with large dot and text",
+    "image": "https://raw.githubusercontent.com/nannanxia-art/gemini-thinking/refs/heads/main/gauge.jpeg"
+  }
+]
